@@ -17,6 +17,10 @@ runs:
         node-version: ${{ inputs.node-version }}
         registry-url: 'https://registry.npmjs.org'
 
+    - name: Ensure latest npm version
+      shell: bash
+      run: npm install -g npm@latest
+
     - name: Install dependencies
       shell: bash
       run: npm ci --ignore-scripts
