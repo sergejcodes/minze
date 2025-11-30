@@ -23,7 +23,7 @@
     "postinstall": "simple-git-hooks"
   },
   "devDependencies": {
-    "@types/node": "^22.15.21",
+    "@types/node": "^22.19.1",
     "eslint": "^9.39.1",
     "eslint-config-prettier": "^10.1.8",
     "globals": "^16.5.0",
