@@ -32,11 +32,11 @@ $ bun add @xenova/transformers
 
 2. Create a `hf-element.js` file inside the `src/lib` directory.
 
-```
+```txt {4}
 src/
 └─ lib/
    ├─ ...
-   └─ hf-element.js // [!code ++]
+   └─ hf-element.js
 ```
 
 3. Import `@xenova/transformers` and define a component inside the new file.
@@ -118,11 +118,11 @@ $ bun add @huggingface/inference
 
 2. Create a `hf-element.js` file inside the `src/lib` directory.
 
-```
+```txt {4}
 src/
 └─ lib/
    ├─ ...
-   └─ hf-element.js // [!code ++]
+   └─ hf-element.js
 ```
 
 3. Import `@huggingface/inference` and define a component inside the new file.

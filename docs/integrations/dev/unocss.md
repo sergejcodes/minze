@@ -36,17 +36,17 @@ $ bun add -D unocss @unocss/postcss
 
 ::: code-group
 
-```txt [files]
+```txt [files] {3,6,8-10}
 ├─ src/
 |  ├─ assets/
-|  |  ├─ uno.css // [!code ++]
+|  |  ├─ uno.css
 |  |  └─ vite.css
 |  ├─ ...
-|  └─ vite.js // [!code warning]
+|  └─ vite.js
 ├─ ...
-├─ postcss.config.cjs // [!code ++]
-├─ uno.config.js // [!code ++]
-└─ vite.config.js // [!code warning]
+├─ postcss.config.cjs
+├─ uno.config.js
+└─ vite.config.js
 ```
 
 ```css [uno.css]
@@ -98,11 +98,11 @@ export default defineConfig({
 
 ::: code-group
 
-```txt [files]
+```txt [files] {4}
 src/
 └─ lib/
    ├─ ...
-   ├─ my-button.css // [!code ++]
+   ├─ my-button.css
    └─ my-button.js
 ```
 

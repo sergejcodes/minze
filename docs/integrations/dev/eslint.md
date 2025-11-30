@@ -49,11 +49,11 @@ $ bun add -D eslint
 
 ::: code-group
 
-```txt [files]
+```txt [files] {3,4}
 ├─ src/
 ├─ ...
-├─ .eslintignore // [!code ++]
-└─ .eslintrc.json // [!code ++]
+├─ .eslintignore
+└─ .eslintrc.json
 ```
 
 ```[.eslintignore]
@@ -148,11 +148,11 @@ $ bun add -D eslint @typescript-eslint/eslint-plugin @typescript-eslint/parser
 
 ::: code-group
 
-```txt [files]
+```txt [files] {3,4}
 ├─ src/
 ├─ ...
-├─ .eslintignore // [!code ++]
-└─ .eslintrc.json // [!code ++]
+├─ .eslintignore
+└─ .eslintrc.json
 ```
 
 ```[.eslintignore]

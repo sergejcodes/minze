@@ -77,11 +77,11 @@ You can also use sub-directories inside the lib directory e.g. `lib/sub-dir/new-
 
 :::
 
-```
+```txt {4}
 src/
 └─ lib/
    ├─ ...
-   └─ new-element.js // [!code ++]
+   └─ new-element.js
 ```
 
 3. Paste the following code into the file. The component will be auto-registered with dash-case naming `new-element` inferred from the class name `NewElement`.
@@ -114,10 +114,10 @@ export class NewElement extends MinzeElement {
 
 4. Create a `preview.dev.html` file in the `src` directory (by default, git won't track this file). The file is injected into the preview during dev runtime and is what you see on the screen when you are running the dev task, if no `preview.dev.html` file is present, it falls back to `preview.html` (which is tracked by git).
 
-```
+```txt {3}
 src/
 ├─ ...
-├─ preview.dev.html // [!code ++]
+├─ preview.dev.html
 └─ preview.html
 ```
 

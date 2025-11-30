@@ -47,11 +47,11 @@ $ bun add -D prettier
 
 ::: code-group
 
-```txt [files]
+```txt [files] {3,4}
 ├─ src/
 ├─ ...
-├─ .prettierignore // [!code ++]
-└─ .prettierrc.json // [!code ++]
+├─ .prettierignore
+└─ .prettierrc.json
 ```
 
 ```[.prettierignore]

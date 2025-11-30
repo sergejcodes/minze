@@ -53,13 +53,13 @@ npx playwright install
 
 ::: code-group
 
-```txt [files]
+```txt [files] {3,4,6}
 ├─ src/
 |  ├─ ...
-|  ├─ utils.js // [!code ++]
-|  └─ vite.js // [!code warning]
+|  ├─ utils.js
+|  └─ vite.js
 ├─ ...
-└─ playwright.config.js // [!code ++]
+└─ playwright.config.js
 ```
 
 ```js [playwright.config.js]
@@ -106,12 +106,12 @@ if (import.meta.env.MODE !== 'testing') { // [!code ++]
 
 5. Create a `my-button.test.js` file inside the `src/lib` directory.
 
-```
+```txt {5}
 src/
 └─ lib/
    ├─ ...
    ├─ my-button.js
-   └─ my-button.test.js // [!code ++]
+   └─ my-button.test.js
 ```
 
 6. Add the following code to your newly created file:

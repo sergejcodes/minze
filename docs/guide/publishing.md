@@ -80,12 +80,12 @@ import { modules, defineAll } from 'my-package'
 defineAll(modules, ['my-element', 'nested/my-element-two'])
 ```
 
-```txt [Source Files]
+```txt [Source Files] {4,5}
 src/
 └─ lib/
    ├─ nested/
-   |  └─ my-element-two.js // [!code ++]
-   └─ my-element.js // [!code ++]
+   |  └─ my-element-two.js
+   └─ my-element.js
 ```
 
 :::
@@ -168,12 +168,12 @@ If you have published your package to npm, you can also load it via a CDN link f
 </html>
 ```
 
-```txt [Source Files]
+```txt [Source Files] {4,5}
 src/
 └─ lib/
    ├─ nested/
-   |  └─ my-element-two.js // [!code ++]
-   └─ my-element.js // [!code ++]
+   |  └─ my-element-two.js
+   └─ my-element.js
 ```
 
 :::

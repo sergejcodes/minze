@@ -32,11 +32,11 @@ $ bun add @tensorflow/tfjs
 
 2. Create a `tf-element.js` file inside the `src/lib` directory.
 
-```
+```txt {4}
 src/
 └─ lib/
    ├─ ...
-   └─ tf-element.js // [!code ++]
+   └─ tf-element.js
 ```
 
 3. Import `@tensorflow/tfjs` and define a component inside the new file.

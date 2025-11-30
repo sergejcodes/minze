@@ -67,12 +67,12 @@ export default defineConfig({
 
 4. Create a `my-button.test.js` file inside the `src/lib` directory.
 
-```
+```txt {5}
 src/
 └─ lib/
    ├─ ...
    ├─ my-button.js
-   └─ my-button.test.js // [!code ++]
+   └─ my-button.test.js
 ```
 
 5. Add the following code to your newly created file:

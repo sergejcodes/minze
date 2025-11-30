@@ -25,18 +25,18 @@ class UniqueButton extends MinzeElement {}
 - Should be named consistently in either `dash-case` or `PascalCase`.
 - Should be named after the component they are exporting.
 
-```
-✖ Bad // [!code --]
+```txt {1,7,11}
+✖ Bad
 my_unique_name.js
 my_Unique-name.js
 myuniquename.js
 MYUNIQUENAME.js
 
-✔ Good // [!code ++]
+✔ Good
 my-unique-name.js
 my-unique-name-two.js
 
-✔ Good // [!code ++]
+✔ Good
 MyUniqueName.js
 MyUniqueNameTwo.js
 ```
