@@ -36,6 +36,9 @@
   --vp-button-brand-border: var(--minze-c-mint-3);
   --vp-button-brand-hover-border: var(--minze-c-mint-3);
 
+  /* fix: docsearch button background bug */
+  --docsearch-search-button-background: var(--vp-c-bg-alt) !important;
+
   /* hero */
   --vp-home-hero-name-color: transparent;
   --vp-home-hero-name-background: linear-gradient(
