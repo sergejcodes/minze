@@ -1,5 +1,9 @@
 import type { HeadConfig } from 'vitepress'
 import { defineConfig } from 'vitepress'
+import {
+  groupIconMdPlugin,
+  groupIconVitePlugin
+} from 'vitepress-plugin-group-icons'
 import { languages } from './grammar'
 
 const isProduction = process.env.NODE_ENV
@@ -65,7 +69,14 @@ export default defineConfig({
     theme: {
       light: 'github-light',
       dark: 'material-theme-palenight'
+    },
+    config(md) {
+      md.use(groupIconMdPlugin)
     }
+  },
+
+  vite: {
+    plugins: [groupIconVitePlugin()]
   },
 
   themeConfig: {
