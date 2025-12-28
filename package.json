@@ -32,7 +32,8 @@
     "simple-git-hooks": "^2.13.1",
     "typescript-eslint": "^8.48.0",
     "vitepress": "^2.0.0-alpha.15",
-    "vitepress-plugin-group-icons": "^1.6.5"
+    "vitepress-plugin-group-icons": "^1.6.5",
+    "vitepress-plugin-llms": "^1.10.0"
   },
   "simple-git-hooks": {
     "pre-commit": "npx lint-staged",

@@ -4,6 +4,7 @@ import {
   groupIconMdPlugin,
   groupIconVitePlugin
 } from 'vitepress-plugin-group-icons'
+import llmstxt from 'vitepress-plugin-llms'
 import { languages } from './grammar'
 
 const isProduction = process.env.NODE_ENV
@@ -76,7 +77,7 @@ export default defineConfig({
   },
 
   vite: {
-    plugins: [groupIconVitePlugin()]
+    plugins: [groupIconVitePlugin(), llmstxt()]
   },
 
   themeConfig: {
