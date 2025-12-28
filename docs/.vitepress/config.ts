@@ -77,7 +77,7 @@ export default defineConfig({
   },
 
   vite: {
-    plugins: [groupIconVitePlugin(), llmstxt()]
+    plugins: [groupIconVitePlugin(), isProduction ? llmstxt() : undefined]
   },
 
   themeConfig: {
