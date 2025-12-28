@@ -31,7 +31,7 @@
     "prettier": "3.7.3",
     "simple-git-hooks": "^2.13.1",
     "typescript-eslint": "^8.48.0",
-    "vitepress": "^1.6.4"
+    "vitepress": "^2.0.0-alpha.15"
   },
   "simple-git-hooks": {
     "pre-commit": "npx lint-staged",
